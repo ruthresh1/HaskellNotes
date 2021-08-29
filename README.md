@@ -9,6 +9,21 @@ Install stack to practice haskell in your local or cloud system
 Follow instructions
 https://docs.haskellstack.org/en/stable/README/
 
+### Stack
+Basic stack usage
+```code
+// Starting a new project
+$ stack new my-project
+$ cd my-project
+$ stack setup
+$ stack build
+$ stack exec my-project-exe
+
+// To launch a repl
+$ stack ghci
+$ stack repl
+```
+
 ### Strings
 ```haskell
 Prelude> :type 'a'
