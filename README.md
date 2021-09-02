@@ -25,9 +25,22 @@ $ stack repl
 ```
 
 ### Strings
+A set of characters enclosed within double quotes
 ```haskell
 Prelude> :type 'a'
 'a' :: Char
 Prelude> :type "Hello!"
 "Hello!" :: [Char]
+```
+
+### Functions
+A function is a set of repeatable instructions, that is invoked as and when needed.
+It has a name and accepts parameters as needed, to return a value
+```haskell
+Prelude> succ 1
+// 2
+Prelude> min 1 2
+// 1
+Prelude> max 1.2 2.4
+// 2
 ```
