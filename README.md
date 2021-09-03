@@ -31,6 +31,25 @@ Prelude> :type 'a'
 'a' :: Char
 Prelude> :type "Hello!"
 "Hello!" :: [Char]
+
+-- Printing
+Prelude> print "Hello"
+// "Hello"
+Prelude> putStrLn "Hello"
+// Hello
+//
+Prelude> putStr "Hello"
+// Hello
+
+
+-- A simple haskell program print1.hs
+module Print1 where
+main :: IO ()
+main = putStrLn "hello"
+
+Prelude> :l print1.hs
+Prelude> main
+hello
 ```
 
 ### Functions
