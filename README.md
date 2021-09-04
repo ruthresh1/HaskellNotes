@@ -25,9 +25,41 @@ $ stack repl
 ```
 
 ### Strings
+A set of characters enclosed within double quotes
 ```haskell
 Prelude> :type 'a'
 'a' :: Char
 Prelude> :type "Hello!"
 "Hello!" :: [Char]
+
+-- Printing
+Prelude> print "Hello"
+// "Hello"
+Prelude> putStrLn "Hello"
+// Hello
+//
+Prelude> putStr "Hello"
+// Hello
+
+
+-- A simple haskell program print1.hs
+module Print1 where
+main :: IO ()
+main = putStrLn "hello"
+
+Prelude> :l print1.hs
+Prelude> main
+hello
+```
+
+### Functions
+A function is a set of repeatable instructions, that is invoked as and when needed.
+It has a name and accepts parameters as needed, to return a value
+```haskell
+Prelude> succ 1
+// 2
+Prelude> min 1 2
+// 1
+Prelude> max 1.2 2.4
+// 2
 ```
