@@ -11,15 +11,15 @@ https://docs.haskellstack.org/en/stable/README/
 
 ### Stack
 Basic stack usage
-```code
-// Starting a new project
+```bash
+# Starting a new project
 $ stack new my-project
 $ cd my-project
 $ stack setup
 $ stack build
 $ stack exec my-project-exe
 
-// To launch a repl
+# To launch a repl
 $ stack ghci
 $ stack repl
 ```
@@ -63,3 +63,5 @@ Prelude> min 1 2
 Prelude> max 1.2 2.4
 // 2
 ```
+
+Functions in Haskell default to prefix syntax, meaning that the function being applied is at the beginning of the expression rather than the middle. Operators are functions which can be used in infix style. All operators are functions.
