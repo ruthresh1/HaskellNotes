@@ -75,3 +75,16 @@ Prelude> doubleSmallNumber x = if x > 100 then x else x*2
 Prelude> doubleSmallNumber 2
 // 4
 ```
+
+### Lists
+A homogeneous grouping of elements.
+```haskell
+Prelude> let lostNumbers = [4,8,15,16,23,42]  
+Prelude> lostNumbers  
+[4,8,15,16,23,42]
+Prelude> [1,2,3,4] ++ [9,10,11,12]  
+[1,2,3,4,9,10,11,12] 
+
+-- List operations
+
+```
