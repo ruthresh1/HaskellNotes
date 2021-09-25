@@ -34,12 +34,11 @@ Prelude> :type "Hello!"
 
 -- Printing
 Prelude> print "Hello"
-// "Hello"
+"Hello"
 Prelude> putStrLn "Hello"
-// Hello
-//
+Hello
 Prelude> putStr "Hello"
-// Hello
+Hello
 
 
 -- A simple haskell program print1.hs
@@ -57,11 +56,11 @@ A function is a set of repeatable instructions, that is invoked as and when need
 It has a name and accepts parameters as needed, to return a value
 ```haskell
 Prelude> succ 1
-// 2
+2
 Prelude> min 1 2
-// 1
+1
 Prelude> max 1.2 2.4
-// 2
+2
 ```
 
 Functions in Haskell default to prefix syntax, meaning that the function being applied is at the beginning of the expression rather than the middle. Operators are functions which can be used in infix style. All operators are functions.
@@ -73,7 +72,7 @@ In haskell if statement should always have a corresponding else.
 ```haskell
 Prelude> doubleSmallNumber x = if x > 100 then x else x*2   
 Prelude> doubleSmallNumber 2
-// 4
+4
 ```
 
 ### Lists
