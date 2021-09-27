@@ -51,6 +51,21 @@ Prelude> main
 hello
 ```
 
+String concatenation
+Concatenate means to join
+Two ways to do them for strings is using '++' and concat function
+```haskell
+Prelude> name = "Ruthresh" ++ " Kumar"
+Prelude> putStr name
+Ruthresh Kumar
+
+Prelude> first_name = "Ruthresh"
+Prelude> last_name = " Kumar"
+Prelude> name = concat first_name last_name
+Prelude> putStr name
+Ruthresh Kumar
+```
+
 ### Functions
 A function is a set of repeatable instructions, that is invoked as and when needed.
 It has a name and accepts parameters as needed, to return a value
